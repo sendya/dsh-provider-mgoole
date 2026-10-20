@@ -2,7 +2,7 @@
 
 [English](./README.md) | 简体中文
 
-一个 DeepSeek Harness 的 bundle 插件：把 **芒果AI（MangoAI）** 的 OpenAI 兼容网关接成模型供应商，并且使用**原生「设置 → 模型」卡片**（API 密钥输入框、自定义设置、获取可用模型），没有一行自绘界面代码。
+一个 DeepSeek Harness 的 bundle 插件：把 **芒果AI（MangoAI）** 的 OpenAI 兼容网关接成模型供应商，并且使用**原生「设置 → 模型」卡片**（API 密钥输入框、自定义设置、获取可用模型）。
 
 启用插件 = 供应商出现；停用插件 = 供应商消失。
 

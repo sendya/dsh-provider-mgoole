@@ -4,7 +4,7 @@ English | [简体中文](./README.zh-CN.md)
 
 A DeepSeek Harness bundle plugin that adds the **芒果AI (MangoAI)** OpenAI-compatible
 gateway as a model provider — and gives it the **native Models-page card** (API key
-field, endpoint / protocol / model list, “获取可用模型”), with zero custom UI code.
+field, endpoint / protocol / model list, “获取可用模型”).
 
 Enabling the plugin registers the provider; disabling it removes the provider again.
 
