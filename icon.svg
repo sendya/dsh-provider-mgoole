@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="MangoAI model provider">
+  <path d="M33.6 12.4c7.9-3.4 16.2 1.1 19.6 9 3.5 8 1.1 16.3-3.2 23.2C45.9 51.4 39.4 55 32.2 55 20.6 55 12 46.4 12 35.2c0-4.6 1.4-8.6 3.8-12.4 2.2-3.5 5.6-6.6 9.4-8.2z" fill="#f2a03d"/>
+  <path d="M36.4 12.6c-.6-3.4.6-6.6 3.4-8.6" fill="none" stroke="#3f8a3a" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M39.6 8.8c4.6-2.2 8.8-1.2 11.2 1.4-2.6 3.6-7 4.6-11.2 2.4z" fill="#3f8a3a"/>
+  <g fill="none" stroke="#7a3f06" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.85">
+    <path d="M23 34h11m0 0-4.2-4.2M34 34l-4.2 4.2"/>
+    <path d="M40 34h1"/>
+  </g>
+  <circle cx="20" cy="34" r="3.4" fill="#7a3f06"/>
+  <circle cx="44" cy="34" r="3.4" fill="#7a3f06"/>
+</svg>

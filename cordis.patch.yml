@@ -1,0 +1,15 @@
+# 芒果AI (mangoai-official) 第三方模型供应商：安装即注册、停用即撤销。
+#
+# 本 patch 只挂一行插件（没有 config），provider 档案由 index.js 在启用时经
+# settings 服务写入 `llm-pi-ai` 命名空间、停用时删除：
+#   - 行 id `llm-pi-ai` 就是模型设置页认的原生命名空间（layoutOf 只认
+#     llm-deepseek / llm-pi-ai），因此卡片是出厂编辑器（API 密钥 / 自定义设置 /
+#     获取可用模型），无需任何客户端代码；
+#   - 配置必须由 profile 文档持有才能编辑：dsh-config-editor 会在发现同 id 的
+#     bundle 层也提供 config 时以 "overridden by a home patch or command-line
+#     overlay" 拒绝写入。所以这里绝不能写 config —— 由插件在运行时写入。
+#
+# 路由名固定为 `mangoai-official`，凭证引用 MGOOLE_API_KEY。
+- insert:
+    - id: mangoai-provider
+      name: '@sendya/dsh-provider-mgoole'

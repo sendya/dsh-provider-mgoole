@@ -1,0 +1,44 @@
+{
+  "name": "@sendya/dsh-provider-mgoole",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "DeepSeek Harness plugin: registers the 芒果AI (mangoai-official) OpenAI-compatible provider into the native llm-pi-ai settings card on enable, and removes it on disable",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "dsh-bundle",
+    "llm",
+    "provider",
+    "mangoai"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sendya/dsh-provider-mgoole.git"
+  },
+  "homepage": "https://github.com/sendya/dsh-provider-mgoole#readme",
+  "engines": {
+    "node": ">=20"
+  },
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "icon.svg",
+    "locale/*.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

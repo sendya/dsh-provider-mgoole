@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "芒果AI 模型供应商",
+    "description": "通过 pi-ai 适配器把芒果AI（mgoole）的 OpenAI-Responses 网关注册为第三方模型供应商路由。"
+  }
+}

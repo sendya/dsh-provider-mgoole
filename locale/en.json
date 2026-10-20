@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "MangoAI Model Provider",
+    "description": "Registers the 芒果AI (mgoole) OpenAI-Responses gateway as a third-party model provider route through the pi-ai adapter."
+  }
+}
