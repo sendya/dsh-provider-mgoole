@@ -1,6 +1,6 @@
 {
   "name": "@sendya/dsh-provider-mgoole",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "type": "module",
   "description": "DeepSeek Harness plugin: registers the 芒果AI (mangoai-official) OpenAI-compatible provider into the native llm-pi-ai settings card on enable, and removes it on disable",

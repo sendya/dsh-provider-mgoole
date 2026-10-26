@@ -49,15 +49,27 @@ const PROFILE = {
   api: 'openai-responses',
   baseURL: 'https://mgoole.com/v1',
   models: [
-    { id: 'deepseek-v4-flash', name: 'DeepSeek-V4-Flash' },
-    { id: 'deepseek-v4-pro', name: 'DeepSeek-V4-Pro' },
+    {
+      id: 'deepseek-v4-flash', name: 'DeepSeek-V4-Flash',
+      contextWindow: 1000000,
+      maxTokens: 256000,
+      input: ['text'],
+      reasoningEfforts: { off: null, low: 'low', high: 'high', max: 'max' },
+    },
+    {
+      id: 'deepseek-v4-pro', name: 'DeepSeek-V4-Pro',
+      contextWindow: 1000000,
+      maxTokens: 256000,
+      input: ['text'],
+      reasoningEfforts: { off: null, low: 'low', high: 'high', max: 'max' },
+    },
     {
       id: 'deepseek-v4.1-flash',
       name: 'DeepSeek-V4.1-Flash',
       contextWindow: 1000000,
       maxTokens: 256000,
       input: ['text', 'image'],
-      reasoningEfforts: { off: null, low: 'low', medium: 'medium', high: 'high', xhigh: 'xhigh', max: 'max' },
+      reasoningEfforts: { off: null, low: 'low', high: 'high', max: 'max' },
     },
   ],
 }
